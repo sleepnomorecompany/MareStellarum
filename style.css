@@ -191,7 +191,7 @@ main p
 #disqus_thread
 {
     background: #020912;
-    padding: 1.5em 6em;    
+    padding: 0em 6em;    
 }
 
 @media only screen and (min-width:320px)
@@ -309,6 +309,6 @@ main p
 
     #disqus_thread
     {
-    padding: 1.5em 1.5em;    
+    padding: 0em 1.5em;    
     }
 }
