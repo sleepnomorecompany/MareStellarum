@@ -8,6 +8,7 @@ OpenBurgerMenu.onclick = function()
 	NoScrollOnBody.classList.toggle('no-scroll');
 }
 
+
 let HeaderText = document.querySelector('#txt01');
 let StarredSky = document.querySelector('#img02');
 let DoubleMoon = document.querySelector('#img04');
@@ -25,4 +26,33 @@ window.addEventListener('scroll',()=>{
 		FloatingPedestals.style.marginTop = Value * -0.25 + 'px';
 		FloatingFragments.style.marginTop = Value * -0.75 + 'px';
 	}
+});
+
+
+let ScrollButton = document.querySelector('#btn01');
+let isScrolling;
+
+window.addEventListener('scroll', () => {
+	window.clearTimeout(isScrolling);
+	isScrolling = setTimeout(() => {
+	    if (window.scrollY > window.innerHeight/2)
+	    {
+	        ScrollButton.classList.add('rotate');
+	    }
+	    else 
+	    {
+	        ScrollButton.classList.remove('rotate');
+	    }
+	}, 200);
+});
+
+ScrollButton.addEventListener('click', () => {
+    if (window.scrollY > window.innerHeight/2)
+    {
+        window.scrollTo({ bottom: document.body.scrollHeight});
+    }
+    else
+    {
+    	window.scrollTo({ top: document.body.scrollHeight});
+    }
 });
