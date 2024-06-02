@@ -191,7 +191,7 @@ main p
 #disqus_thread
 {
     background: #020912;
-    padding: 3em 6em;    
+    padding: 1.5em 6em;    
 }
 
 @media only screen and (min-width:320px)
@@ -305,5 +305,10 @@ main p
     main h2
     {
         font-size: 1.5em;
+    }
+
+    #disqus_thread
+    {
+    padding: 1.5em 1.5em;    
     }
 }
