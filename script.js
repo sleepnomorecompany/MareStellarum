@@ -56,18 +56,3 @@ ScrollButton.addEventListener('click', () => {
     	window.scrollTo({ top: document.body.scrollHeight});
     }
 });
-
-
-var disqus_config = function () {
-    this.page.url = 'https://sleepnomorecompany.github.io/MareStellarum/';
-    this.page.identifier = PAGE_IDENTIFIER;
-};
-
-(function() {
-    var d = document, s = d.createElement('script');
-
-    s.src = 'https://mare-stellarum.disqus.com/embed.js';
-
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-})();

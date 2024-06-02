@@ -188,6 +188,12 @@ main p
     transition: 0.3s ease-in-out;
 }
 
+#disqus_thread
+{
+    background: #020912;
+    padding: 3em 6em;    
+}
+
 @media only screen and (min-width:320px)
 {
     #txt01
