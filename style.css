@@ -6,6 +6,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-decoration: none;
     scroll-behavior: smooth;
 }
 
@@ -191,7 +193,6 @@ main p
 #disqus_thread
 {
     background: #020912;
-    text-decoration: none;
     padding: 0em 6em;    
 }
 
