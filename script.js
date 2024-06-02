@@ -59,7 +59,7 @@ ScrollButton.addEventListener('click', () => {
 
 
 var disqus_config = function () {
-    this.page.url = https://sleepnomorecompany.github.io/MareStellarum/;
+    this.page.url = 'https://sleepnomorecompany.github.io/MareStellarum/';
     this.page.identifier = PAGE_IDENTIFIER;
 };
 
