@@ -8,7 +8,6 @@
     font-family: 'Poppins', sans-serif;
     color: #fff;
     text-decoration: none;
-    scroll-behavior: smooth;
 }
 
 body
@@ -157,9 +156,9 @@ main p
     position: fixed;
     bottom: 20px; right: 20px;
     background: #fff;
-    padding: 0.5em;
+    padding: 0.75em;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 25px;
     display: inline-flex;
     justify-content: center;
     align-items: center;

@@ -49,10 +49,10 @@ window.addEventListener('scroll', () => {
 ScrollButton.addEventListener('click', () => {
     if (window.scrollY > window.innerHeight/2)
     {
-        window.scrollTo({ bottom: document.body.scrollHeight});
+        window.scrollTo({top: 0, behavior: 'smooth'});
     }
     else
     {
-    	window.scrollTo({ top: document.body.scrollHeight});
+    	window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
     }
 });
