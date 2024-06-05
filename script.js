@@ -12,8 +12,8 @@ OpenBurgerMenu.onclick = function()
 let HeaderText = document.querySelector('#txt01');
 let StarredSky = document.querySelector('#img02');
 let DoubleMoon = document.querySelector('#img04');
-let FloatingPedestals = document.querySelector('#img09');
-let FloatingFragments = document.querySelector('#img10');
+let FloatingPedestals = document.querySelector('#img10');
+let FloatingFragments = document.querySelector('#img12');
 let FloatingPedestalsLightEffect = document.querySelector('#img11');
 
 window.addEventListener('scroll',()=>{
