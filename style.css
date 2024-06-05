@@ -239,6 +239,7 @@ summary
     #txt01
     {
         font-size: 6em;
+        transform: translateY(-130px);
     }
 }
 
