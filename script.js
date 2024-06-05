@@ -14,6 +14,7 @@ let StarredSky = document.querySelector('#img02');
 let DoubleMoon = document.querySelector('#img04');
 let FloatingPedestals = document.querySelector('#img09');
 let FloatingFragments = document.querySelector('#img10');
+let FloatingPedestalsLightEffect = document.querySelector('#img11');
 
 window.addEventListener('scroll',()=>{
 	const isMobile = window.innerWidth;
@@ -25,6 +26,7 @@ window.addEventListener('scroll',()=>{
 		DoubleMoon.style.marginTop = Value * 0.75 + 'px';
 		FloatingPedestals.style.marginTop = Value * -0.25 + 'px';
 		FloatingFragments.style.marginTop = Value * -0.75 + 'px';
+		FloatingPedestalsLightEffect.style.marginTop = Value * -0.25 + 'px';
 	}
 });
 

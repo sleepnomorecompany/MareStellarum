@@ -111,7 +111,9 @@ figure img
 
 figure img#img04,
 figure img#img07,
-figure img#img11
+figure img#img09,
+figure img#img11,
+figure img#img13
 {
     mix-blend-mode: screen;
 }
