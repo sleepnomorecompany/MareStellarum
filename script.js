@@ -1,6 +1,7 @@
 const OpenBurgerMenu = document.querySelector('nav');
 const NavigationMenu = document.querySelector('ul');
 const NoScrollOnBody = document.querySelector('body');
+
 OpenBurgerMenu.onclick = function()
 {
 	OpenBurgerMenu.classList.toggle('active');
@@ -9,7 +10,7 @@ OpenBurgerMenu.onclick = function()
 }
 
 
-let HeaderText = document.querySelector('#txt01');
+let HeaderText = document.querySelector('h1');
 let StarredSky = document.querySelector('#img02');
 let DoubleMoon = document.querySelector('#img04');
 let FloatingPedestals = document.querySelector('#img10');
@@ -49,12 +50,12 @@ window.addEventListener('scroll', () => {
 });
 
 ScrollButton.addEventListener('click', () => {
-    if (window.scrollY > window.innerHeight/2)
+    if (window.scrollY > document.documentElement.scrollHeight/2)
     {
         window.scrollTo({top: 0, behavior: 'smooth'});
     }
     else
     {
-    	window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
+    	window.scrollTo({top: document.documentElement.scrollHeight, behavior: 'smooth'});
     }
 });
