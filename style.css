@@ -170,7 +170,7 @@ main
 {
     position: relative;
     background: #020912;
-    padding: 3em 6em;
+    padding: 3em 6em 0.5em;
     z-index: 20;
 }
 
