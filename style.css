@@ -225,7 +225,8 @@ section#section05 p
     color: #ccc;
 }
 
-section#subsection01
+section#subsection01,
+section#subsection02
 {
     padding-top: 0em;
 }
@@ -303,7 +304,7 @@ summary
     transform: translateY(3px);
 }
 
-.trailer
+.multimedia
 {
     position: relative;
     width: 100%;
@@ -332,6 +333,11 @@ summary
         height: 100%;
     }
 
+    audio
+    {
+        width: 100%;
+    }
+
     article img
     {
         width: 75%;
@@ -355,6 +361,11 @@ summary
         height: 75%;
     }
 
+    audio
+    {
+        width: 75%;
+    }
+
     article img
     {
         width: 50%;
@@ -374,6 +385,11 @@ summary
     {
         width: 50%;
         height: 50%;
+    }
+
+    audio
+    {
+        width: 50%;
     }
 
     article img
