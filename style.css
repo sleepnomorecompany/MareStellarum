@@ -314,6 +314,36 @@ summary
     align-items: center;
 }
 
+.team 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+    margin: 1.5em auto 0em;
+}
+
+.member
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.member img 
+{
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+}
+
+.member p 
+{
+    margin-top: 1em;
+}
+
 .rotate
 {
     transform: rotate(180deg);

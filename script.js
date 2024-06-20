@@ -40,7 +40,7 @@ let isScrolling;
 window.addEventListener('scroll', () => {
 	window.clearTimeout(isScrolling);
 	isScrolling = setTimeout(() => {
-	    if (window.scrollY > window.innerHeight/2)
+	    if (window.scrollY > document.documentElement.scrollHeight/2)
 	    {
 	        ScrollButton.classList.add('rotate');
 	    }
