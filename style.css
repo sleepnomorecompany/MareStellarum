@@ -79,18 +79,6 @@ header ul li a.active
     color: #2b1055;
 }
 
-h1
-{
-    position: absolute;
-    color: #fff;
-    font-size: 6em;
-    line-height: 1;
-    text-align: center;
-    text-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
-    transform: translateY(-90px);
-    z-index: 10;
-}
-
 a img
 {
     position: relative;
@@ -163,6 +151,29 @@ figure img#img13
     mix-blend-mode: screen;
 }
 
+figure h1
+{
+    position: absolute;
+    color: #fff;
+    font-size: 6em;
+    line-height: 1;
+    text-align: center;
+    text-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+    transform: translateY(-90px);
+    z-index: 10;
+}
+
+figure h2
+{
+    position: absolute;
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+    transform: translateY(-45px);
+    z-index: 10;    
+}
+
 main
 {
     position: relative;
@@ -201,6 +212,16 @@ main p
 section
 {
     padding-top: 1em;
+}
+
+section#section02 p
+{
+    color: #ccc;
+}
+
+section#subsection01
+{
+    padding-top: 0em;
 }
 
 article.inbetween
@@ -248,11 +269,6 @@ summary
     hyphens: auto;
     word-spacing: -1px;
     border-bottom: 2px solid #ccc;  
-}
-
-#section02 p
-{
-    color: #ccc;
 }
 
 #btn01
@@ -306,7 +322,7 @@ summary
 
 @media only screen and (min-width:320px)
 {
-    h1
+    figure h1
     {
         font-size: 3.5em; 
     }
@@ -314,7 +330,7 @@ summary
 
 @media only screen and (min-width:425px)
 {
-    h1
+    figure h1
     {
         font-size: 4.5em;
     }
@@ -322,7 +338,7 @@ summary
 
 @media only screen and (min-width:990px)
 {
-    h1
+    figure h1
     {
         font-size: 6em;
         transform: translateY(-130px);
@@ -344,6 +360,11 @@ summary
     header .logo
     {
         font-size: 1.5em;
+    }
+
+    figure h2
+    {
+        display: none;    
     }
 
     main

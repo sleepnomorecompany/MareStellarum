@@ -10,7 +10,8 @@ OpenBurgerMenu.onclick = function()
 }
 
 
-let HeaderText = document.querySelector('h1');
+let HeaderText = document.querySelector('#txt01');
+let SubHeaderText = document.querySelector('#txt02');
 let StarredSky = document.querySelector('#img02');
 let DoubleMoon = document.querySelector('#img04');
 let FloatingPedestals = document.querySelector('#img10');
@@ -23,6 +24,7 @@ window.addEventListener('scroll',()=>{
   	{
 		let Value = window.scrollY;
 		HeaderText.style.marginTop = Value * 1.5 + 'px';
+		SubHeaderText.style.marginTop = Value * 1.5 + 'px';
 		StarredSky.style.marginLeft = Value * 0.5 + 'px';
 		DoubleMoon.style.marginTop = Value * 0.75 + 'px';
 		FloatingPedestals.style.marginTop = Value * -0.25 + 'px';
