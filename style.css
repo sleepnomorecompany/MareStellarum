@@ -219,6 +219,12 @@ section#section02 p
     color: #ccc;
 }
 
+section#section05 p
+{
+    font-size: 1em;
+    color: #ccc;
+}
+
 section#subsection01
 {
     padding-top: 0em;
