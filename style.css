@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {font-family: Aerlingua; src: url('Fonts/Aerlingua.otf');}
 
 *
 {
@@ -89,7 +90,8 @@ a img
 
 nav
 {
-    position: relative;
+    position: absolute;
+    top: 35px; right: 25px;
     width: 30px;
     height: 30px;
     cursor: pointer;
@@ -103,11 +105,11 @@ nav
 nav.active
 {
     position: fixed;
-    top: 30px; right: 20px;
+    top: 35px; right: 25px;
     background: url('Pictures/Menu Interface/02.png');
     background-size: 25px;
     background-position: center;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
 }
 
 figure
@@ -345,6 +347,11 @@ summary
     margin-top: 1em;
 }
 
+.custom
+{
+    font-family: 'Aerlingua';    
+}
+
 .rotate
 {
     transform: rotate(180deg);
@@ -404,6 +411,14 @@ summary
     }
 }
 
+@media only screen and (max-width:768px)
+{
+    figure h2
+    {
+        display: none;    
+    }
+}
+
 @media only screen and (min-width:990px)
 {
     figure h1
@@ -458,7 +473,7 @@ summary
 
     figure h2
     {
-        display: none;    
+        font-size: 2.5em;   
     }
 
     main
