@@ -200,6 +200,16 @@ main h3
     margin: 0.5em 0em;
 }
 
+main h4
+{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+    margin: 1.5em 0em 0em;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 main p
 {
     font-size: 1.25em;
@@ -231,6 +241,20 @@ section#subsection01,
 section#subsection02
 {
     padding-top: 0em;
+}
+
+section#subsection01 > h3,
+section#subsection02 > h3,
+section#subsection03 > h3,
+section#subsection04 > h3,
+section#subsection05 > h3,
+section#subsection06 > h3,
+section#subsection07 > h3
+{
+    background-color: rgba(0, 0, 0, 0.75);;
+    background-image: url('Pictures/General/01.png');
+    background-size: contain;
+    background-blend-mode: soft-light;
 }
 
 article.inbetween
